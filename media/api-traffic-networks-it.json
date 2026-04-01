@@ -1,0 +1,300 @@
+{
+  "meta": {
+    "currentPage": 1,
+    "itemsPerPage": 10,
+    "totalItems": 9
+  },
+  "data": [
+    {
+      "traffic": {
+        "id": 1653666,
+        "sync": {
+          "id": 500450,
+          "country": {
+            "id": 21,
+            "name": "Italy",
+            "iso2": "IT",
+            "flag": {
+              "id": 21,
+              "name": "IT-country-flag.png",
+              "public": true,
+              "path": "/storage/IT-country-flag.png"
+            },
+            "icao": "LI"
+          },
+          "syncDate": "2026-03-27T00:00:00+00:00",
+          "appUpdated": "2026-03-28T00:00:00+00:00",
+          "dataType": "state-specific",
+          "code": "IT"
+        },
+        "rankingCategory": "network",
+        "date": "2026-03-27T00:00:00+00:00"
+      },
+      "networkType": "total",
+      "dateRange": "DY",
+      "value": 5586,
+      "startDateValue": 0.2587,
+      "prevDateValue": 0.1188,
+      "rank": 5
+    },
+    {
+      "traffic": {
+        "id": 1653666,
+        "sync": {
+          "id": 500450,
+          "country": {
+            "id": 21,
+            "name": "Italy",
+            "iso2": "IT",
+            "flag": {
+              "id": 21,
+              "name": "IT-country-flag.png",
+              "public": true,
+              "path": "/storage/IT-country-flag.png"
+            },
+            "icao": "LI"
+          },
+          "syncDate": "2026-03-27T00:00:00+00:00",
+          "appUpdated": "2026-03-28T00:00:00+00:00",
+          "dataType": "state-specific",
+          "code": "IT"
+        },
+        "rankingCategory": "network",
+        "date": "2026-03-27T00:00:00+00:00"
+      },
+      "networkType": "total",
+      "dateRange": "WK",
+      "avgValue": 4974.4286,
+      "startDateValue": 0.2424,
+      "prevDateValue": 0.097,
+      "rank": 5
+    },
+    {
+      "traffic": {
+        "id": 1653666,
+        "sync": {
+          "id": 500450,
+          "country": {
+            "id": 21,
+            "name": "Italy",
+            "iso2": "IT",
+            "flag": {
+              "id": 21,
+              "name": "IT-country-flag.png",
+              "public": true,
+              "path": "/storage/IT-country-flag.png"
+            },
+            "icao": "LI"
+          },
+          "syncDate": "2026-03-27T00:00:00+00:00",
+          "appUpdated": "2026-03-28T00:00:00+00:00",
+          "dataType": "state-specific",
+          "code": "IT"
+        },
+        "rankingCategory": "network",
+        "date": "2026-03-27T00:00:00+00:00"
+      },
+      "networkType": "total",
+      "dateRange": "Y2D",
+      "value": 392649,
+      "avgValue": 4565.686,
+      "startDateValue": 0.2046,
+      "prevDateValue": 0.0642,
+      "rank": 5
+    },
+    {
+      "traffic": {
+        "id": 1653667,
+        "sync": {
+          "id": 500450,
+          "country": {
+            "id": 21,
+            "name": "Italy",
+            "iso2": "IT",
+            "flag": {
+              "id": 21,
+              "name": "IT-country-flag.png",
+              "public": true,
+              "path": "/storage/IT-country-flag.png"
+            },
+            "icao": "LI"
+          },
+          "syncDate": "2026-03-27T00:00:00+00:00",
+          "appUpdated": "2026-03-28T00:00:00+00:00",
+          "dataType": "state-specific",
+          "code": "IT"
+        },
+        "rankingCategory": "flight_breakdown",
+        "date": "2026-03-27T00:00:00+00:00"
+      },
+      "networkType": "total",
+      "dateRange": "DY",
+      "value": 3985,
+      "startDateValue": 0.1857,
+      "prevDateValue": 0.1073,
+      "rank": 5
+    },
+    {
+      "traffic": {
+        "id": 1653667,
+        "sync": {
+          "id": 500450,
+          "country": {
+            "id": 21,
+            "name": "Italy",
+            "iso2": "IT",
+            "flag": {
+              "id": 21,
+              "name": "IT-country-flag.png",
+              "public": true,
+              "path": "/storage/IT-country-flag.png"
+            },
+            "icao": "LI"
+          },
+          "syncDate": "2026-03-27T00:00:00+00:00",
+          "appUpdated": "2026-03-28T00:00:00+00:00",
+          "dataType": "state-specific",
+          "code": "IT"
+        },
+        "rankingCategory": "flight_breakdown",
+        "date": "2026-03-27T00:00:00+00:00"
+      },
+      "networkType": "total",
+      "dateRange": "WK",
+      "avgValue": 3476.7143,
+      "startDateValue": 0.1529,
+      "prevDateValue": 0.0727,
+      "rank": 5
+    },
+    {
+      "traffic": {
+        "id": 1653667,
+        "sync": {
+          "id": 500450,
+          "country": {
+            "id": 21,
+            "name": "Italy",
+            "iso2": "IT",
+            "flag": {
+              "id": 21,
+              "name": "IT-country-flag.png",
+              "public": true,
+              "path": "/storage/IT-country-flag.png"
+            },
+            "icao": "LI"
+          },
+          "syncDate": "2026-03-27T00:00:00+00:00",
+          "appUpdated": "2026-03-28T00:00:00+00:00",
+          "dataType": "state-specific",
+          "code": "IT"
+        },
+        "rankingCategory": "flight_breakdown",
+        "date": "2026-03-27T00:00:00+00:00"
+      },
+      "networkType": "total",
+      "dateRange": "Y2D",
+      "value": 274619,
+      "avgValue": 3193.2442,
+      "startDateValue": 0.0975,
+      "prevDateValue": 0.0446,
+      "rank": 5
+    },
+    {
+      "traffic": {
+        "id": 1653667,
+        "sync": {
+          "id": 500450,
+          "country": {
+            "id": 21,
+            "name": "Italy",
+            "iso2": "IT",
+            "flag": {
+              "id": 21,
+              "name": "IT-country-flag.png",
+              "public": true,
+              "path": "/storage/IT-country-flag.png"
+            },
+            "icao": "LI"
+          },
+          "syncDate": "2026-03-27T00:00:00+00:00",
+          "appUpdated": "2026-03-28T00:00:00+00:00",
+          "dataType": "state-specific",
+          "code": "IT"
+        },
+        "rankingCategory": "flight_breakdown",
+        "date": "2026-03-27T00:00:00+00:00"
+      },
+      "networkType": "avg",
+      "dateRange": "DY",
+      "value": 1601,
+      "startDateValue": 0.4865,
+      "prevDateValue": 0.1485,
+      "rank": 10
+    },
+    {
+      "traffic": {
+        "id": 1653667,
+        "sync": {
+          "id": 500450,
+          "country": {
+            "id": 21,
+            "name": "Italy",
+            "iso2": "IT",
+            "flag": {
+              "id": 21,
+              "name": "IT-country-flag.png",
+              "public": true,
+              "path": "/storage/IT-country-flag.png"
+            },
+            "icao": "LI"
+          },
+          "syncDate": "2026-03-27T00:00:00+00:00",
+          "appUpdated": "2026-03-28T00:00:00+00:00",
+          "dataType": "state-specific",
+          "code": "IT"
+        },
+        "rankingCategory": "flight_breakdown",
+        "date": "2026-03-27T00:00:00+00:00"
+      },
+      "networkType": "avg",
+      "dateRange": "WK",
+      "avgValue": 1497.7143,
+      "startDateValue": 0.5155,
+      "prevDateValue": 0.1577,
+      "rank": 10
+    },
+    {
+      "traffic": {
+        "id": 1653667,
+        "sync": {
+          "id": 500450,
+          "country": {
+            "id": 21,
+            "name": "Italy",
+            "iso2": "IT",
+            "flag": {
+              "id": 21,
+              "name": "IT-country-flag.png",
+              "public": true,
+              "path": "/storage/IT-country-flag.png"
+            },
+            "icao": "LI"
+          },
+          "syncDate": "2026-03-27T00:00:00+00:00",
+          "appUpdated": "2026-03-28T00:00:00+00:00",
+          "dataType": "state-specific",
+          "code": "IT"
+        },
+        "rankingCategory": "flight_breakdown",
+        "date": "2026-03-27T00:00:00+00:00"
+      },
+      "networkType": "avg",
+      "dateRange": "Y2D",
+      "value": 118030,
+      "avgValue": 1372.4419,
+      "startDateValue": 0.5585,
+      "prevDateValue": 0.1128,
+      "rank": 12
+    }
+  ]
+}

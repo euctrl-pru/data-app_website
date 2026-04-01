@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "currentPage": 1,
+    "itemsPerPage": 10,
+    "totalItems": 1
+  },
+  "data": [
+    {
+      "id": 500450,
+      "country": {
+        "id": 21,
+        "name": "Italy",
+        "iso2": "IT",
+        "flag": {
+          "id": 21,
+          "name": "IT-country-flag.png",
+          "public": true,
+          "path": "/storage/IT-country-flag.png"
+        },
+        "icao": "LI"
+      },
+      "aircraftOperator": null,
+      "airport": null,
+      "airNavigationServiceProvider": null,
+      "syncDate": "2026-03-27T00:00:00+00:00",
+      "appUpdated": "2026-03-28T00:00:00+00:00",
+      "dataType": "state-specific",
+      "code": "IT"
+    }
+  ]
+}

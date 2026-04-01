@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "currentPage": 1,
+    "itemsPerPage": 10,
+    "totalItems": 1
+  },
+  "data": [
+    {
+      "id": 21,
+      "name": "Italy",
+      "iso2": "IT",
+      "flag": {
+        "id": 21,
+        "name": "IT-country-flag.png",
+        "public": true,
+        "path": "/storage/IT-country-flag.png"
+      },
+      "icao": "LI"
+    }
+  ]
+}

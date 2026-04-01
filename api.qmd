@@ -1,0 +1,163 @@
+---
+title: "API"
+format: html
+---
+
+This page provides some help to get started using the beta version of the 
+EUROCONTROL Data app API.
+Below we will use the API docs page to explain how to test some data retrieve
+use cases and hence obtain the URLs to query.
+
+The API docs page is at  
+<https://api-data-app.eurocontrol.int/api/docs>
+
+
+## Getting Started
+
+### Daily status for a Country
+Let say you are interested in a specific country, i.e. Italy, and
+would like to retrieve daily values for
+
+1. Number of flights (departures, arrivals, and overflights)
+1. ATFM delay minutes per flight and total ATFM delay by cause
+1. Arrival punctuality
+
+The first item to retrieve is the country's `ID`.
+
+### Stakeholder ID
+
+In order to retrieve your stakeholder ID, for example for ‘Italy’,
+you can fill `IT` in the `ico2` field of the `api/countries` endpoint.
+Executing the request would return
+
+```json
+{{< include media/api-country-it.json >}}
+```
+
+so the the relevant country `ID` is `21`.
+
+A minumalist URL to obtain the same would be  
+<https://api-data-app.eurocontrol.int/api/countries?iso2=IT>
+
+
+
+### Daily Sync ID
+
+Each date of data has a specific Sync ID for when the dataset has been latest
+synchronized/updated.
+
+In order to retrieve data for, say, 2026-03-27 you can fill the fields in the
+`api/Sync` endpoint as follows:
+
+* `country.id`: `21`
+* `syncDate[before]`: `2026-03-27`
+* `syncDate[after]`: `2026-03-27`
+
+Execute it and obtain
+
+```json
+{{< include media/api-sync-it.json >}}
+```
+
+This will give you the Sync ID `500450`.
+
+
+A minimal URL for the query above is
+
+<https://api-data-app.eurocontrol.int/api/syncs?country.id=21&syncDate[before]=2026-03-27&syncDate[after]=2026-03-27>
+
+ 
+### Data, finally!
+
+#### Traffic Network
+For Traffic information at the network level, use the above Sync ID `500450`
+in field `traffic.sync.id` in the `api/traffic_networks` endpoint and
+you will get
+
+```json
+{{< include media/api-traffic-networks-it.json >}}
+```
+
+The combination of `"rankingCategory": "network"`, `"networkType": "total"`,
+`"dateRange": "DY"` gives you a `"value" = 5586`, which is your daily total
+traffic.
+
+The combination of `"rankingCategory": "flight_breakdown"`,
+`"networkType": "total"` and `"dateRange": "DY"` gives you a
+`"value" = 3985`, which is your daily total overflights.
+
+The combination of `"rankingCategory": "flight_breakdown",
+`"networkType": "avg"` and `"dateRange": "DY"` gives you a
+`"value" = 1601`, which is your daily total departures/arrivals
+
+(NOTE: the `networkType` field does not make a lot of sense.
+ This is our developers just reusing a field they had created for something
+ else ;-)
+
+The minimalist URL is  
+<https://api-data-app.eurocontrol.int/api/traffic_networks?traffic.sync.id=500450>
+
+
+#### Delay Network
+For Delay information at the network level, use the above Sync ID `500450` in
+the field `delay.sync.id` in the `api/traffic_networks` endpoint and
+you will get
+
+```json
+{{< include media/api-delay-networks-it.json >}}
+```
+
+The combination of `"rankingCategory": "network"`,
+`"networkType": "total"` and  `"dateRange": "DY"` gives you a
+`"value" = 397`, which is your daily total ATFM delay in minutes.
+
+The combination of `"rankingCategory": "network"`,
+`"networkType": "avg"` and `"dateRange": "DY"` gives you a 
+`"value" = 0.0711`, which is your daily ATFM delay per flight in minutes.
+
+The minimalist URL is  
+<https://api-data-app.eurocontrol.int/api/delay_networks?delay.sync.id=500450'>
+
+
+#### Delay Charts
+For Delay chart information, use the above Sync ID `500450` in
+the field `sync.id` in the `api/delay_charts` endpoint and
+you will get
+
+```json
+{{< include media/api-delay-charts-it.json >}}
+```
+
+This one is easier to navigate.
+You have a collection per delay category spelled out in the field “name”,
+per date, and a data collection within it with the value for your delay
+in total minutes.
+
+
+The minimalist URL (limiting to 3 items only) is  
+<https://api-data-app.eurocontrol.int/api/delay_charts?itemsPerPage=3&sync.id=500450>
+
+
+#### Punctuality Network
+
+For Puntuality information at network level,
+use the above Sync ID `500450` in the field `punctuality.sync.id`
+in the `api/punctualities_networks` endpoint and
+you will get
+
+```json
+{{< include media/api-punctualities-networks-it.json >}}
+```
+
+The combination of `"rankingCategory": "network"`,
+`"networkType": "total"` and  `"dateRange": "DY"`
+gives you a `"value" = 77.0152`, which is your
+arrival punctuality percentage for the day.
+
+The combination of `"rankingCategory": "network"`,
+`"networkType": "avg"` and  `"dateRange": "DY"`
+gives you a `"value" = 68.9177`, which is
+your departure punctuality percentage for the day
+(again the developers reusing fields).
+
+<https://api-data-app.eurocontrol.int/api/punctualities_networks?punctuality.sync.id=500450>

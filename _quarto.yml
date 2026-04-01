@@ -2,7 +2,8 @@ project:
   type: website
   output-dir: _site
   render:
-    - "*.qmd"
+    - index.qmd
+    - api.qmd
 
 execute:
   freeze: auto  # Re-render only when source changes
@@ -20,7 +21,9 @@ website:
     logo: "media/EUROCONTROL-logo-standard-rgb.svg"
     left:
       - href: index.qmd
-        text: Home
+        text: App
+      - href: api.qmd
+        text: API
 
 format:
   html:

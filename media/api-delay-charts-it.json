@@ -1,0 +1,516 @@
+{
+  "meta": {
+    "currentPage": 1,
+    "itemsPerPage": 10,
+    "totalItems": 31
+  },
+  "data": [
+    {
+      "data": [
+        {
+          "date": "2026-03-27T00:00:00+00:00",
+          "value": 397,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        }
+      ],
+      "name": "Aerodrome capacity",
+      "share": 1,
+      "dateRange": "DY",
+      "chartType": "category_evolution",
+      "sync": {
+        "id": 500450,
+        "country": {
+          "id": 21,
+          "name": "Italy",
+          "iso2": "IT",
+          "flag": {
+            "id": 21,
+            "name": "IT-country-flag.png",
+            "public": true,
+            "path": "/storage/IT-country-flag.png"
+          },
+          "icao": "LI"
+        },
+        "syncDate": "2026-03-27T00:00:00+00:00",
+        "appUpdated": "2026-03-28T00:00:00+00:00",
+        "dataType": "state-specific",
+        "code": "IT"
+      }
+    },
+    {
+      "data": [
+        {
+          "date": "2026-03-27T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        }
+      ],
+      "name": "Capacity/Staffing (ATC)",
+      "share": 0,
+      "dateRange": "DY",
+      "chartType": "category_evolution",
+      "sync": {
+        "id": 500450,
+        "country": {
+          "id": 21,
+          "name": "Italy",
+          "iso2": "IT",
+          "flag": {
+            "id": 21,
+            "name": "IT-country-flag.png",
+            "public": true,
+            "path": "/storage/IT-country-flag.png"
+          },
+          "icao": "LI"
+        },
+        "syncDate": "2026-03-27T00:00:00+00:00",
+        "appUpdated": "2026-03-28T00:00:00+00:00",
+        "dataType": "state-specific",
+        "code": "IT"
+      }
+    },
+    {
+      "data": [
+        {
+          "date": "2026-03-27T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        }
+      ],
+      "name": "Disruptions (ATC)",
+      "share": 0,
+      "dateRange": "DY",
+      "chartType": "category_evolution",
+      "sync": {
+        "id": 500450,
+        "country": {
+          "id": 21,
+          "name": "Italy",
+          "iso2": "IT",
+          "flag": {
+            "id": 21,
+            "name": "IT-country-flag.png",
+            "public": true,
+            "path": "/storage/IT-country-flag.png"
+          },
+          "icao": "LI"
+        },
+        "syncDate": "2026-03-27T00:00:00+00:00",
+        "appUpdated": "2026-03-28T00:00:00+00:00",
+        "dataType": "state-specific",
+        "code": "IT"
+      }
+    },
+    {
+      "data": [
+        {
+          "date": "2026-03-27T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        }
+      ],
+      "name": "Weather",
+      "share": 0,
+      "dateRange": "DY",
+      "chartType": "category_evolution",
+      "sync": {
+        "id": 500450,
+        "country": {
+          "id": 21,
+          "name": "Italy",
+          "iso2": "IT",
+          "flag": {
+            "id": 21,
+            "name": "IT-country-flag.png",
+            "public": true,
+            "path": "/storage/IT-country-flag.png"
+          },
+          "icao": "LI"
+        },
+        "syncDate": "2026-03-27T00:00:00+00:00",
+        "appUpdated": "2026-03-28T00:00:00+00:00",
+        "dataType": "state-specific",
+        "code": "IT"
+      }
+    },
+    {
+      "data": [
+        {
+          "date": "2026-03-27T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        }
+      ],
+      "name": "Other",
+      "share": 0,
+      "dateRange": "DY",
+      "chartType": "category_evolution",
+      "sync": {
+        "id": 500450,
+        "country": {
+          "id": 21,
+          "name": "Italy",
+          "iso2": "IT",
+          "flag": {
+            "id": 21,
+            "name": "IT-country-flag.png",
+            "public": true,
+            "path": "/storage/IT-country-flag.png"
+          },
+          "icao": "LI"
+        },
+        "syncDate": "2026-03-27T00:00:00+00:00",
+        "appUpdated": "2026-03-28T00:00:00+00:00",
+        "dataType": "state-specific",
+        "code": "IT"
+      }
+    },
+    {
+      "data": [
+        {
+          "date": "2026-03-27T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        }
+      ],
+      "name": "Total delay 2025",
+      "dateRange": "DY",
+      "chartType": "category_evolution",
+      "sync": {
+        "id": 500450,
+        "country": {
+          "id": 21,
+          "name": "Italy",
+          "iso2": "IT",
+          "flag": {
+            "id": 21,
+            "name": "IT-country-flag.png",
+            "public": true,
+            "path": "/storage/IT-country-flag.png"
+          },
+          "icao": "LI"
+        },
+        "syncDate": "2026-03-27T00:00:00+00:00",
+        "appUpdated": "2026-03-28T00:00:00+00:00",
+        "dataType": "state-specific",
+        "code": "IT"
+      }
+    },
+    {
+      "data": [
+        {
+          "date": "2026-03-21T00:00:00+00:00",
+          "value": 74,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-22T00:00:00+00:00",
+          "value": 97,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-23T00:00:00+00:00",
+          "value": 35,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-24T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-25T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-26T00:00:00+00:00",
+          "value": 323,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-27T00:00:00+00:00",
+          "value": 397,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        }
+      ],
+      "name": "Aerodrome capacity",
+      "share": 1,
+      "dateRange": "WK",
+      "chartType": "category_evolution",
+      "sync": {
+        "id": 500450,
+        "country": {
+          "id": 21,
+          "name": "Italy",
+          "iso2": "IT",
+          "flag": {
+            "id": 21,
+            "name": "IT-country-flag.png",
+            "public": true,
+            "path": "/storage/IT-country-flag.png"
+          },
+          "icao": "LI"
+        },
+        "syncDate": "2026-03-27T00:00:00+00:00",
+        "appUpdated": "2026-03-28T00:00:00+00:00",
+        "dataType": "state-specific",
+        "code": "IT"
+      }
+    },
+    {
+      "data": [
+        {
+          "date": "2026-03-21T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-22T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-23T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-24T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-25T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-26T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-27T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        }
+      ],
+      "name": "Capacity/Staffing (ATC)",
+      "share": 0,
+      "dateRange": "WK",
+      "chartType": "category_evolution",
+      "sync": {
+        "id": 500450,
+        "country": {
+          "id": 21,
+          "name": "Italy",
+          "iso2": "IT",
+          "flag": {
+            "id": 21,
+            "name": "IT-country-flag.png",
+            "public": true,
+            "path": "/storage/IT-country-flag.png"
+          },
+          "icao": "LI"
+        },
+        "syncDate": "2026-03-27T00:00:00+00:00",
+        "appUpdated": "2026-03-28T00:00:00+00:00",
+        "dataType": "state-specific",
+        "code": "IT"
+      }
+    },
+    {
+      "data": [
+        {
+          "date": "2026-03-21T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-22T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-23T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-24T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-25T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-26T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-27T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        }
+      ],
+      "name": "Disruptions (ATC)",
+      "share": 0,
+      "dateRange": "WK",
+      "chartType": "category_evolution",
+      "sync": {
+        "id": 500450,
+        "country": {
+          "id": 21,
+          "name": "Italy",
+          "iso2": "IT",
+          "flag": {
+            "id": 21,
+            "name": "IT-country-flag.png",
+            "public": true,
+            "path": "/storage/IT-country-flag.png"
+          },
+          "icao": "LI"
+        },
+        "syncDate": "2026-03-27T00:00:00+00:00",
+        "appUpdated": "2026-03-28T00:00:00+00:00",
+        "dataType": "state-specific",
+        "code": "IT"
+      }
+    },
+    {
+      "data": [
+        {
+          "date": "2026-03-21T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-22T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-23T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-24T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-25T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-26T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        },
+        {
+          "date": "2026-03-27T00:00:00+00:00",
+          "value": 0,
+          "labelFlights": "",
+          "labelYoy": "",
+          "labelTooltip": ""
+        }
+      ],
+      "name": "Weather",
+      "share": 0,
+      "dateRange": "WK",
+      "chartType": "category_evolution",
+      "sync": {
+        "id": 500450,
+        "country": {
+          "id": 21,
+          "name": "Italy",
+          "iso2": "IT",
+          "flag": {
+            "id": 21,
+            "name": "IT-country-flag.png",
+            "public": true,
+            "path": "/storage/IT-country-flag.png"
+          },
+          "icao": "LI"
+        },
+        "syncDate": "2026-03-27T00:00:00+00:00",
+        "appUpdated": "2026-03-28T00:00:00+00:00",
+        "dataType": "state-specific",
+        "code": "IT"
+      }
+    }
+  ]
+}

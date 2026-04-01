@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "currentPage": 1,
+    "itemsPerPage": 10,
+    "totalItems": 6
+  },
+  "data": [
+    {
+      "punctuality": {
+        "id": 285911,
+        "punctualityRanking": [],
+        "sync": {
+          "id": 500450,
+          "country": {
+            "id": 21,
+            "name": "Italy",
+            "iso2": "IT",
+            "flag": {
+              "id": 21,
+              "name": "IT-country-flag.png",
+              "public": true,
+              "path": "/storage/IT-country-flag.png"
+            },
+            "icao": "LI"
+          },
+          "syncDate": "2026-03-27T00:00:00+00:00",
+          "appUpdated": "2026-03-28T00:00:00+00:00",
+          "dataType": "state-specific",
+          "code": "IT"
+        },
+        "rankingCategory": "network",
+        "date": "2026-03-27T00:00:00+00:00",
+        "rankText": "*Top rank for highest."
+      },
+      "networkType": "total",
+      "dateRange": "DY",
+      "value": 77.0152,
+      "startDateValue": -8.7512,
+      "prevDateValue": -9.3236,
+      "rank": 19
+    },
+    {
+      "punctuality": {
+        "id": 285911,
+        "punctualityRanking": [],
+        "sync": {
+          "id": 500450,
+          "country": {
+            "id": 21,
+            "name": "Italy",
+            "iso2": "IT",
+            "flag": {
+              "id": 21,
+              "name": "IT-country-flag.png",
+              "public": true,
+              "path": "/storage/IT-country-flag.png"
+            },
+            "icao": "LI"
+          },
+          "syncDate": "2026-03-27T00:00:00+00:00",
+          "appUpdated": "2026-03-28T00:00:00+00:00",
+          "dataType": "state-specific",
+          "code": "IT"
+        },
+        "rankingCategory": "network",
+        "date": "2026-03-27T00:00:00+00:00",
+        "rankText": "*Top rank for highest."
+      },
+      "networkType": "avg",
+      "dateRange": "DY",
+      "value": 68.9177,
+      "startDateValue": -9.9285,
+      "prevDateValue": -9.2167,
+      "rank": 30
+    },
+    {
+      "punctuality": {
+        "id": 285911,
+        "punctualityRanking": [],
+        "sync": {
+          "id": 500450,
+          "country": {
+            "id": 21,
+            "name": "Italy",
+            "iso2": "IT",
+            "flag": {
+              "id": 21,
+              "name": "IT-country-flag.png",
+              "public": true,
+              "path": "/storage/IT-country-flag.png"
+            },
+            "icao": "LI"
+          },
+          "syncDate": "2026-03-27T00:00:00+00:00",
+          "appUpdated": "2026-03-28T00:00:00+00:00",
+          "dataType": "state-specific",
+          "code": "IT"
+        },
+        "rankingCategory": "network",
+        "date": "2026-03-27T00:00:00+00:00",
+        "rankText": "*Top rank for highest."
+      },
+      "networkType": "total",
+      "dateRange": "WK",
+      "value": 83.7682,
+      "startDateValue": -3.4435,
+      "prevDateValue": -2.9144,
+      "rank": 18
+    },
+    {
+      "punctuality": {
+        "id": 285911,
+        "punctualityRanking": [],
+        "sync": {
+          "id": 500450,
+          "country": {
+            "id": 21,
+            "name": "Italy",
+            "iso2": "IT",
+            "flag": {
+              "id": 21,
+              "name": "IT-country-flag.png",
+              "public": true,
+              "path": "/storage/IT-country-flag.png"
+            },
+            "icao": "LI"
+          },
+          "syncDate": "2026-03-27T00:00:00+00:00",
+          "appUpdated": "2026-03-28T00:00:00+00:00",
+          "dataType": "state-specific",
+          "code": "IT"
+        },
+        "rankingCategory": "network",
+        "date": "2026-03-27T00:00:00+00:00",
+        "rankText": "*Top rank for highest."
+      },
+      "networkType": "avg",
+      "dateRange": "WK",
+      "value": 78.129,
+      "startDateValue": -2.0258,
+      "prevDateValue": -1.9936,
+      "rank": 29
+    },
+    {
+      "punctuality": {
+        "id": 285911,
+        "punctualityRanking": [],
+        "sync": {
+          "id": 500450,
+          "country": {
+            "id": 21,
+            "name": "Italy",
+            "iso2": "IT",
+            "flag": {
+              "id": 21,
+              "name": "IT-country-flag.png",
+              "public": true,
+              "path": "/storage/IT-country-flag.png"
+            },
+            "icao": "LI"
+          },
+          "syncDate": "2026-03-27T00:00:00+00:00",
+          "appUpdated": "2026-03-28T00:00:00+00:00",
+          "dataType": "state-specific",
+          "code": "IT"
+        },
+        "rankingCategory": "network",
+        "date": "2026-03-27T00:00:00+00:00",
+        "rankText": "*Top rank for highest."
+      },
+      "networkType": "total",
+      "dateRange": "Y2D",
+      "value": 82.7836,
+      "startDateValue": -2.2009,
+      "prevDateValue": -1.2109,
+      "rank": 2
+    },
+    {
+      "punctuality": {
+        "id": 285911,
+        "punctualityRanking": [],
+        "sync": {
+          "id": 500450,
+          "country": {
+            "id": 21,
+            "name": "Italy",
+            "iso2": "IT",
+            "flag": {
+              "id": 21,
+              "name": "IT-country-flag.png",
+              "public": true,
+              "path": "/storage/IT-country-flag.png"
+            },
+            "icao": "LI"
+          },
+          "syncDate": "2026-03-27T00:00:00+00:00",
+          "appUpdated": "2026-03-28T00:00:00+00:00",
+          "dataType": "state-specific",
+          "code": "IT"
+        },
+        "rankingCategory": "network",
+        "date": "2026-03-27T00:00:00+00:00",
+        "rankText": "*Top rank for highest."
+      },
+      "networkType": "avg",
+      "dateRange": "Y2D",
+      "value": 77.816,
+      "startDateValue": -1.6351,
+      "prevDateValue": -0.4556,
+      "rank": 19
+    }
+  ]
+}

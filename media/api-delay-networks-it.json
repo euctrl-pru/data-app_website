@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "currentPage": 1,
+    "itemsPerPage": 3,
+    "totalItems": 18
+  },
+  "data": [
+    {
+      "delay": {
+        "id": 890693,
+        "delayRanking": [],
+        "sync": {
+          "id": 500450,
+          "country": {
+            "id": 21,
+            "name": "Italy",
+            "iso2": "IT",
+            "flag": {
+              "id": 21,
+              "name": "IT-country-flag.png",
+              "public": true,
+              "path": "/storage/IT-country-flag.png"
+            },
+            "icao": "LI"
+          },
+          "syncDate": "2026-03-27T00:00:00+00:00",
+          "appUpdated": "2026-03-28T00:00:00+00:00",
+          "dataType": "state-specific",
+          "code": "IT"
+        },
+        "rankingCategory": "network",
+        "date": "2026-03-27T00:00:00+00:00",
+        "rankText": "*Top rank for highest."
+      },
+      "networkType": "total",
+      "dateRange": "DY",
+      "value": 397,
+      "rank": 13
+    },
+    {
+      "delay": {
+        "id": 890693,
+        "delayRanking": [],
+        "sync": {
+          "id": 500450,
+          "country": {
+            "id": 21,
+            "name": "Italy",
+            "iso2": "IT",
+            "flag": {
+              "id": 21,
+              "name": "IT-country-flag.png",
+              "public": true,
+              "path": "/storage/IT-country-flag.png"
+            },
+            "icao": "LI"
+          },
+          "syncDate": "2026-03-27T00:00:00+00:00",
+          "appUpdated": "2026-03-28T00:00:00+00:00",
+          "dataType": "state-specific",
+          "code": "IT"
+        },
+        "rankingCategory": "network",
+        "date": "2026-03-27T00:00:00+00:00",
+        "rankText": "*Top rank for highest."
+      },
+      "networkType": "avg",
+      "dateRange": "DY",
+      "value": 0.0711,
+      "rank": 18
+    },
+    {
+      "delay": {
+        "id": 890693,
+        "delayRanking": [],
+        "sync": {
+          "id": 500450,
+          "country": {
+            "id": 21,
+            "name": "Italy",
+            "iso2": "IT",
+            "flag": {
+              "id": 21,
+              "name": "IT-country-flag.png",
+              "public": true,
+              "path": "/storage/IT-country-flag.png"
+            },
+            "icao": "LI"
+          },
+          "syncDate": "2026-03-27T00:00:00+00:00",
+          "appUpdated": "2026-03-28T00:00:00+00:00",
+          "dataType": "state-specific",
+          "code": "IT"
+        },
+        "rankingCategory": "network",
+        "date": "2026-03-27T00:00:00+00:00",
+        "rankText": "*Top rank for highest."
+      },
+      "networkType": "total",
+      "dateRange": "WK",
+      "avgValue": 132.2857,
+      "startDateValue": 0.3719,
+      "prevDateValue": 12.0423,
+      "rank": 17
+    }
+  ]
+}
