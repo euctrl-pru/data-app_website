@@ -29,7 +29,7 @@ The first item to retrieve is the country's `ID`.
 ### Stakeholder ID
 
 In order to retrieve your stakeholder ID, for example for ‘Italy’,
-you can fill `IT` in the `ico2` field of the `api/countries` endpoint.
+you can fill `IT` in the `iso2` field of the `api/countries` endpoint.
 Executing the request would return
 
 ```json
